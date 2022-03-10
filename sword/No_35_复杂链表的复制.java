@@ -1,19 +1,19 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Node {
-    int val;
-    Node next;
-    Node random;
-
-    public Node(int val) {
-        this.val = val;
-        this.next = null;
-        this.random = null;
-    }
-}
-
 public class No_35_复杂链表的复制 {
+    class Node {
+        int val;
+        Node next;
+        Node random;
+
+        public Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
+        }
+    }
+
     Map<Node, Node> cachedNode = new HashMap<>();
 
     /**
