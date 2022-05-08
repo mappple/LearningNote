@@ -16,4 +16,9 @@ public class RealImage implements Image {
     public void display() {
         System.out.println("Displaying " + fileName);
     }
+
+    @Override
+    public void destroy() {
+        System.out.println("Destroy " + fileName);
+    }
 }

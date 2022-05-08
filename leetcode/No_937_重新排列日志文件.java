@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-public class No_37_重新排列日志文件 {
+public class No_937_重新排列日志文件 {
     public String[] reorderLogFiles(String[] logs) {
         int len = logs.length;
         Pair[] arr = new Pair[len];
