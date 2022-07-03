@@ -1,3 +1,5 @@
+package datastructure;
+
 public class PrintUtils {
 
     private static final String template = "node%d(value=%d)--->";
