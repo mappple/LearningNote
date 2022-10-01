@@ -1,4 +1,4 @@
-package datastructure.test.test;
+package datastructure.test;
 
 public class Test {
     aaaaaaaaaaaaaaaaaaaaaaaaa
