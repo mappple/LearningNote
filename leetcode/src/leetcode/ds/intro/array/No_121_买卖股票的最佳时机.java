@@ -1,6 +1,6 @@
-package leetcode.No_121_买卖股票的最佳时机;
+package leetcode.ds.intro.array;
 
-class Solution {
+public class No_121_买卖股票的最佳时机 {
     public int maxProfit(int[] prices) {
         int max = 0;
         int pre = prices[0];
@@ -17,6 +17,6 @@ class Solution {
 
     public static void main(String[] args) {
         int[] t = new int[]{7, 1, 5, 3, 6, 4};
-        System.err.println(new Solution().maxProfit(t));
+        System.err.println(new No_121_买卖股票的最佳时机().maxProfit(t));
     }
 }

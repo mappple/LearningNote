@@ -1,10 +1,10 @@
-package leetcode.No_217_存在重复元素;
+package leetcode.ds.intro.array;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class No_217_存在重复元素 {
     public boolean containsDuplicate(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
@@ -31,5 +31,9 @@ class Solution {
             }
         }
         return false;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
